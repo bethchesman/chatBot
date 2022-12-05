@@ -41,6 +41,8 @@ def get_help():
             # giving tips on how to use chatbot  
         elif val == "I'd like some pointers" or val == "i'd like some pointers" or val == "id like some pointers":
             print("My abilities can be reduced to five features that I hope you take advantage of!\nIf you want to know a class' prerequisites, ask me something like this, 'How can I take COSC 301'.\nYou can get statistics on a computer science course by asking a question about a specific course.\nPossible job oppourtunites based on your course experice can be provided if you ask about work.\nI can help you make an acedmic advising appointment aswell, just ask me how!\nIf you're unnsure what courses your experience qualifies you for, I can provide you with a list of courses you've completed the prerequisites for if you ask for help with course scheduling.\nI hope you found this helpful!!")
+            from translate import translate
+            translate()
             
             sat = input("Do you need more help? (Yes/No)\n")
             if sat != "yes" or sat != "Yes":
@@ -57,3 +59,4 @@ def get_help():
         csvwriter.writerows(rows)
         
     
+get_help()
