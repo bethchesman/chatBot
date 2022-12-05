@@ -58,3 +58,18 @@ Here is the gui added to the chatBot. It’s similar to most text message/chat i
 
 Sample Output:
 ![output responses](Images/gui.png)
+
+## Individual Portion
+
+New API:
+
+Bing translate API. With this API, the chatBot can now translate its messages into French and Italian upon the user’s wish. Within the system’s help function, a user can receive a message describing how to use the system and this API’s purpose is to give these directions in multiple languages.  The languages can be changed as well, the ones chosen are simply place holders.
+
+![Translate API](Images/translate.png)
+
+New API:
+
+This API is used within the bookAppointment class of our chatBot. This class is a feature for the bot that helps the user book academic advising appointments with one of the school’s counselors and now, with this API, users will be given a static map with a pin of the office's exact location on the UBCO campus.
+
+![Static Map API](Images/staticmap.png)
+
